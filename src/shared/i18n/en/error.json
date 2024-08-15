@@ -1,0 +1,7 @@
+{
+    "ERR_INVALID_CREDENTIAL": "Please enter valid credential.",
+    "ERR_BOOK_NOT_FOUND": "Book not found.",
+    "ERR_CART_NOT_FOUND": "Cart not found.",
+    "ERR_CART_ITEM_NOT_FOUND": "Cart item not found.",
+    "ERR_OUT_OF_STOCK": "Sorry selected item is out of stock."
+}

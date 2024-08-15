@@ -1,0 +1,12 @@
+{
+    "SUC_USER_REGISTER": "User created successfully.",
+    "USER_LOGGED_IN": "User logged in successfully.",
+    "SUC_BOOK_LIST": "Book list get successfully.",
+    "SUC_BOOK_GET": "Book get successfully.",
+    "SUC_CART_LIST": "Cart list get successfully.",
+    "SUC_CART_ADDED": "Cart added successfully.",
+    "SUC_ITEM_REMOVED": "Cart item removed successfully.",
+    "SUC_ORDER_PLACE": "Order placed successfully.",
+    "SUC_ORDER_HISTORY": "Order history retrieved successfully.",
+    "SUC_ORDER_DETAIL": "Order details retrieved successfully"
+}
