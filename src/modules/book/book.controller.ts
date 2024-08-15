@@ -1,13 +1,5 @@
-import {
-    Controller,
-    Get,
-    Param,
-    Query,
-    UseGuards,
-    UseInterceptors,
-} from "@nestjs/common";
+import { Controller, Get, Param, Query } from "@nestjs/common";
 import { ApiTags, ApiOperation, ApiResponse } from "@nestjs/swagger";
-import { ThrottlerGuard } from "@nestjs/throttler";
 import { AppResponse } from "../../shared/interface/app-response.interface";
 import { BookService } from "./book.service";
 import { throwException } from "../../shared/utility/throw-exception";
@@ -15,7 +7,6 @@ import { PageQueryDto } from "../../shared/dto/page-query.dto";
 
 @ApiTags("Book")
 @Controller("book")
-@UseGuards(ThrottlerGuard)
 export class BookController {
     constructor(private readonly bookService: BookService) {}
 
